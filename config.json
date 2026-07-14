@@ -1,0 +1,21 @@
+{
+  "serial": {
+    "port": "COM14",
+    "baudrate": 115200,
+    "timeout": 1.0
+  },
+  "measurement": {
+    "channels": [1, 2],
+    "threshold": 1.5,
+    "edge": "r",
+    "read_interval": 0.05
+  },
+  "storage": {
+    "output_dir": "wyniki_pomiarow"
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "debug": false
+  }
+}
